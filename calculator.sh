@@ -14,8 +14,8 @@ function multiplication {
 }
 function divison {
 	if [[ $2 -eq 0 ]]
-		then 
-			echo "Invalid Operand"
+	then 
+		echo "Invalid Operand"
 	else
 	divison=$(( $1 / $2))
 	echo "$divison" 
